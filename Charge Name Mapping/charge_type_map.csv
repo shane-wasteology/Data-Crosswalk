@@ -1,0 +1,31 @@
+vendor_name,invoice_pattern,charge_type,service_type,validation_level,priority
+*,FUEL\s*SURCHARGE,Fuel Surcharge,Manual,Invoice Level,1
+*,MONTHLY.*SERVICE,Monthly Service Commercial,Recurring,Service Level,1
+*,MONTHLY.*RENTAL,Monthly Rental Industrial,Recurring,Service Level,1
+*,MONTHLY.*FEE,Monthly Service Commercial,Recurring,Service Level,1
+*,CONTAINER.*SVC,Monthly Service Commercial,Recurring,Service Level,1
+*,EQUIPMENT.*FEE,Monthly Service Commercial,Recurring,Service Level,1
+*,DISPOSAL,Disposal Charge,On Call,Service Level,1
+*,WEIGHT.*ADJ,Weight Adjustment,On Call,Service Level,1
+*,EMPTY.*RETURN,Empty & Return,On Call,Service Level,1
+*,HAUL,Empty & Return,On Call,Service Level,2
+*,PULL,Empty & Return,On Call,Service Level,2
+*,SWAP,Empty & Return,On Call,Service Level,2
+*,DELIVERY,Delivery Industrial,On Call,Service Level,1
+*,REMOVAL,Removal Industrial,On Call,Service Level,1
+*,RECYCL.*REBATE,Recycling Rebate,On Call,Service Level,1
+*,COMPACTOR.*MONITOR,Compactor Monitoring,Recurring,Service Level,1
+*,LOCAL.*SURCHARGE,Local Surcharges/Fees Commercial,Recurring,Service Level,1
+*,FRANCHISE.*FEE,Local Surcharges/Fees Commercial,Recurring,Service Level,2
+*,REGULATORY.*FEE,Local Surcharges/Fees Commercial,Recurring,Service Level,2
+*,ENVIRO.*FEE,Local Surcharges/Fees Commercial,Recurring,Service Level,2
+*,ADMIN.*FEE,Admin Fee,Recurring,Service Level,1
+*,LATE.*FEE,Late Fee,On Call,Service Level,1
+*,OVERWEIGHT,Overweight Charge,On Call,Service Level,1
+*,EXTRA.*PICK,Extra Pickup,On Call,Service Level,1
+*,ON.*CALL,On Call Service,On Call,Service Level,1
+*,DRY.*RUN,Dry Run,On Call,Service Level,1
+*,CONTAMINATION,Contamination Charge,On Call,Service Level,1
+*,LOCK.*FEE,Lock Fee,On Call,Service Level,1
+*,RENTAL,Monthly Rental Industrial,Recurring,Service Level,2
+*,RENT,Monthly Rental Industrial,Recurring,Service Level,3
